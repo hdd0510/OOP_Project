@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Aims of Application" />
+                  <MenuItem mnemonicParsing="false" text="Basic Usage" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Quit" />
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <Label text="Demonstrate of Type Of Virus" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <SplitPane dividerPositions="0.5" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <items>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="TOP_CENTER" prefHeight="85.0" prefWidth="507.0" text="Envelope Virus">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="20.0" />
+                           </padding>
+                        </Label>
+                        <TitledPane alignment="CENTER" expanded="false" prefHeight="628.0" prefWidth="507.0" text="Choose Type">
+                           <content>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#btnCovidPressed" prefHeight="61.0" prefWidth="518.0" text="Covid Virus" />
+                                 </children>
+                              </VBox>
+                           </content>
+                        </TitledPane>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" />
+               </items>
+            </SplitPane>
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>
