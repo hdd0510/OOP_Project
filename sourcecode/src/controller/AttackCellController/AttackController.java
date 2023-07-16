@@ -22,14 +22,14 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 import virus.Attack;
-import virus.Vescile;
+import virus.Vesicle;
 import virus.Virus;
 
 public class AttackController {
     
 	private Virus virus;
     private HostCell cell;
-    private CellComponent vescile;
+    private CellComponent vesicle;
     private String virusProcessPath;
     
     private Stage stage;
@@ -89,8 +89,8 @@ public class AttackController {
 	}
 	
 
-	public CellComponent getVescile() {
-		return vescile;
+	public CellComponent getVesicle() {
+		return vesicle;
 	}
 
 	public void initialize() {
@@ -152,8 +152,8 @@ public class AttackController {
         	
         	if (Btn1pressed == true && Btn2pressed == false) {
         		((Attack) virus).attackMembrane(cell);
-                if (virus instanceof Vescile) {
-                	 vescile = ((Vescile) virus).setVesicle(virus);
+                if (virus instanceof Vesicle) {
+                	 vesicle = ((Vesicle) virus).setVesicle(virus);
                 }
                 Btn2pressed = true;
             }
