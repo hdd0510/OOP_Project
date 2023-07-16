@@ -1,0 +1,6 @@
+Release: Once inside the host cell, the viral RNA directs the synthesis of viral proteins, including the matrix protein (M1), nucleoprotein (NP), and polymerase proteins. These proteins, along with the newly replicated viral RNA, assemble at the host cell's plasma membrane. The viral particles bud from the cell membrane, acquiring a lipid envelope derived from the host cell membrane. 
+
+
+
+
+

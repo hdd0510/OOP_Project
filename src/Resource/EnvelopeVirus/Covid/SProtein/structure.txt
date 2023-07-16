@@ -1,0 +1,1 @@
+Each subunit consists of two functional domains: the S1 domain responsible for receptor binding and the S2 domain involved in membrane fusion. 
