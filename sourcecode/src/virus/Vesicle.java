@@ -2,7 +2,7 @@ package virus;
 
 import cell.CellComponent;
 
-public interface Vescile {
+public interface Vesicle {
 	default CellComponent setVesicle(Virus virus) {
 		 try {
              CellComponent Vesicle = CellComponent.createCellComponent("Cell/Membrane");
