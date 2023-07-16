@@ -1,0 +1,1 @@
+Approach: Influenza virus approaches host cells by its hemagglutinin (HA) glycoprotein binding to sialic acid receptors on the cell surface. The viral particles recognize and attach to the receptors, allowing them to come into close proximity to the host cell.

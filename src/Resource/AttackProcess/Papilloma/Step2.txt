@@ -1,0 +1,1 @@
+Entry and Escape: HPV enters the host cell by a process called endocytosis. The virus is engulfed by the cell membrane, forming an endosome, which transports the virus into the cell. Once inside the endosome, HPV must escape to avoid degradation. The L2 protein helps facilitate the escape of the viral genome from the endosome into the cytoplasm.

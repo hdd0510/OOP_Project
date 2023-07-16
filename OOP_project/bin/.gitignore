@@ -1,5 +1,15 @@
 /Resource/
+<<<<<<< Updated upstream
 /virus/
 /controller/
 /test/
 /fxml2/
+=======
+/Screen/
+/cell/
+/controller/
+/exception/
+/fxml/
+/test/
+/virus/
+>>>>>>> Stashed changes
