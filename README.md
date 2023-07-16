@@ -1,8 +1,31 @@
 # OOP-Miniproject
-Overview: COVID-19 has been spreading all over the world and there is the need ofunderstanding different type of viruses, as well as the way they infect in order to have the basic knowledge toprevent them.
-Basic knowledge:-Basic structure of virus:
-+ Every virus has 2 basic elements: acid nucleic and capsid.
-+ Based on their structure, viruses are divided into 2 categories: with and without lipid envelop.
-•Virus without envelop will dissolve its capsid when reach the target cell
-•Virus with envelop usually has anchors, called glycoprotein. The mechanism for infecting in this case is by lock–key: when reaching the host cell with the suitable outer structure, it uses its glycoproteins to attach
-then injects its acid nucleic into the cel
+
+## Overview
+COVID-19 has been spreading all over the world, and understanding different types of viruses and their modes of infection is crucial for basic knowledge and prevention. This mini-project aims to provide an understanding of viruses by exploring their basic structures and mechanisms of infection.
+
+## Assignment of Members
+
+### Hoàng Đình Dũng – 20214882
+- Hav virus: image, text preparation, core code
+- GUI: Controller for Attack (each virus), Fix code for StructureController
+- Diagram: Controller class diagram
+- Report (writing, summarizing, and formatting)
+
+### Nguyễn Tiến Doanh – 20214881
+- Covid virus: image, text preparation, core code
+- GUI: MainScreenController, StructureController, fix code for AttackController, etc.
+- Diagram: Use case diagram, (initial) general class diagram
+- Fixing and cleaning all code, code merging.
+
+### Nguyễn Việt Dũng – 20214883
+- Papilloma, Adeno virus: image, text preparation, core code
+- Diagram: (final) general class diagram, detailed core class diagram
+- Report, slides
+
+### Đỗ Nghiêm Đức – 20214892
+- Influenza, Chikungunya virus: image, text preparation, core code
+- Diagram: (final) general class diagram, detailed core class diagram
+- Report, slides
+
+## Demo
+You can find the demo video for this project at the following link: [Demo Video](https://www.youtube.com/watch?v=M_Aqb-m6ibU)
