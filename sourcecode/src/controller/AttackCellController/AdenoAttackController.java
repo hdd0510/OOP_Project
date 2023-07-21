@@ -29,7 +29,7 @@ public class AdenoAttackController extends AttackController{
             transition.setNode(getVirusStackPane());
             transition.play();
             transition.setOnFinished(actionEvent -> {
-                CellComponent adenoVesicle = getVescile();
+                CellComponent adenoVesicle = getVesicle();
                 adeno.attackNucleus(this.getCell(), adeno);
 
                 FadeTransition adenoMembraneTransition = new FadeTransition(Duration.seconds(3),

@@ -33,12 +33,12 @@ public class InfluenzaAttackController extends AttackController{
                 
                 influenza.attackNucleus(getCell(), influenza);
                 FadeTransition chikungunyaVesicleTransition = new FadeTransition(Duration.seconds(2),
-                        getVescile());
+                        getVesicle());
                 chikungunyaVesicleTransition.setFromValue(3);
                 chikungunyaVesicleTransition.setToValue(0.0);
                 chikungunyaVesicleTransition.play();
                 chikungunyaVesicleTransition.setOnFinished(ActionEvent -> {
-                    influenza.getChildren().remove(getVescile()); // uncoat vesicle
+                    influenza.getChildren().remove(getVesicle()); // uncoat vesicle
                 });
                 for (Node component : influenza.getFields().values()) {
                     if (!component.equals(influenza.getAcidNucleic())) {
