@@ -4,10 +4,10 @@ import java.util.HashMap;
 
 import virus.Attack;
 import virus.GetField;
-import virus.Vescile;
+import virus.Vesicle;
 import virus.VirusComponent;
 
-public class Chikungunya extends EnvelopeVirus implements Attack, Vescile, GetField {
+public class Chikungunya extends EnvelopeVirus implements Attack, Vesicle, GetField {
 
     public Chikungunya(String name, String image, VirusComponent acidNucleic, VirusComponent capsid, VirusComponent lipidBilayer,
             VirusComponent glycoProtein) {

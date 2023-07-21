@@ -4,10 +4,10 @@ import java.util.HashMap;
 
 import virus.Attack;
 import virus.GetField;
-import virus.Vescile;
+import virus.Vesicle;
 import virus.VirusComponent;
 
-public class Influenza extends EnvelopeVirus implements Attack, Vescile, GetField{
+public class Influenza extends EnvelopeVirus implements Attack, Vesicle, GetField{
 
     private VirusComponent iProtein;
     private VirusComponent mProtein;

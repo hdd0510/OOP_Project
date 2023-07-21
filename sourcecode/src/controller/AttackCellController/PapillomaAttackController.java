@@ -49,7 +49,7 @@ public class PapillomaAttackController extends AttackController{
             transition.setNode(getVirusStackPane());
             transition.play();
             transition.setOnFinished(actionEvent -> {
-                CellComponent papillomaVesicle = this.getVescile(); // it create vescicle after penetrate
+                CellComponent papillomaVesicle = this.getVesicle(); // it create vescicle after penetrate
                 papilloma.attackNucleus(getCell(), papilloma);
 
                 FadeTransition papilVesicleTransition = new FadeTransition(Duration.seconds(3),

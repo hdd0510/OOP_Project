@@ -29,7 +29,7 @@ public class ChikungunyaAttackController extends AttackController{
         	transition.setNode(getVirusStackPane());
         	transition.play();
         	transition.setOnFinished(actionEvent -> {
-            CellComponent chikungunyaVescile = this.getVescile(); 
+            CellComponent chikungunyaVescile = this.getVesicle(); 
             chikungunya.attackNucleus(getCell(), chikungunya);
             FadeTransition chikungunyaVesicleTransition = new FadeTransition(Duration.seconds(3),
                         chikungunyaVescile);

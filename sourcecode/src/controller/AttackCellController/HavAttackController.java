@@ -33,7 +33,7 @@ public class HavAttackController extends AttackController{
             transition.setByY(getCellStackPane().getLayoutY() - 90);
             transition.setNode(getVirusStackPane());
             transition.play();
-            CellComponent havVesicle = getVescile();
+            CellComponent havVesicle = getVesicle();
             FadeTransition havVesicleTransition = new FadeTransition(Duration.seconds(0.5),
                     havVesicle);
             havVesicleTransition.setFromValue(2.0); // Opacity value at the start of the
