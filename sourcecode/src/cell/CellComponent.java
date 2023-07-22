@@ -1,9 +1,6 @@
 package cell;
 
 import java.io.File;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -11,8 +8,8 @@ import javafx.scene.image.ImageView;
 public class CellComponent extends ImageView {
     private Image uninfectedImg;
     private Image infectedImg;
-    static String path = "src/Resource/";
-    protected Boolean isInfected = false;
+    private static String path = "src/Resource/";
+    private Boolean isInfected = false;
 
     public CellComponent() {
     }
@@ -33,14 +30,6 @@ public class CellComponent extends ImageView {
         String infected = infectedFile.toURI().toString();
 
         return new CellComponent(uninfected, infected);
-    }
-
-    public Image getUninfectedImg() {
-        return uninfectedImg;
-    }
-
-    public Image getInfectedImg() {
-        return infectedImg;
     }
 
     public void setInfected(Boolean blinfected) {
