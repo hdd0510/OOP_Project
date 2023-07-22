@@ -1,0 +1,1 @@
+Single-stranded RNA (ssRNA) genome that is positive-sense, non-segmented, and linear. It consists of a single open reading frame (ORF) encoding a polyprotein precursor that is processed into viral proteins involved in replication, assembly, and capsid formation.
