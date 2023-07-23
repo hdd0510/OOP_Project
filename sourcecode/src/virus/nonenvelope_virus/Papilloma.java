@@ -7,7 +7,7 @@ import virus.GetField;
 import virus.Vesicle;
 import virus.VirusComponent;
 
-public class Papilloma extends NonEnvelopeVirus implements Attack, Vesicle, GetField {
+public class Papilloma extends NonEnvelopeVirus implements Attack, GetField {
 
 	private VirusComponent histone;
 	private VirusComponent capsidL2;
