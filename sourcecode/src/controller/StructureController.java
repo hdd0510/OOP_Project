@@ -59,10 +59,6 @@ public class StructureController {
     @FXML
     private TextArea infoArea;
 
-    public StructureController(Virus virus, HashMap<String, VirusComponent> virusComponent) {
-        this.virus = virus;
-        this.virusComponent = virusComponent;
-    }
     
     public StructureController(Virus virus) throws GetFieldException {
         this.virus = virus;
